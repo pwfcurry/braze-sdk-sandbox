@@ -1055,6 +1055,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@braze/expo-plugin@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@braze/expo-plugin/-/expo-plugin-0.6.0.tgz#a296f1c6bc23bd3a476649f96b9911347bbbcefe"
+  integrity sha512-lhoFIgC0FbnFBTdjqmkICJluXk0Vi5EKO/AApsomt+JUevI6YUv7Urq0RQNI9dROcajC6NfhOPHAO8Y1sL2CGg==
+
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.0.tgz#be0c1de943c7987a9fbd309ea0b1acd605890c7b"
@@ -5388,6 +5393,11 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-native-appboy-sdk@^1.41.0:
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/react-native-appboy-sdk/-/react-native-appboy-sdk-1.41.0.tgz#6b1668139417fc9d21808db48cb279ecbada07ef"
+  integrity sha512-amCRb+87cG3ERjNnlNJ78FstfQK6TAtYj+wBPcEnirB36SV2HNUMDsmT2D9SFebEz2CE73oo2f48cxUsRgGXEQ==
 
 react-native-codegen@^0.70.6:
   version "0.70.6"

@@ -27,13 +27,31 @@
         "backgroundColor": "#FFFFFF"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
       "eas": {
         "projectId": "a1dcf81a-df7d-437f-bb03-77a7e8d4301b"
       }
-    }
+    },
+    "plugins": [
+      [
+        "@braze/expo-plugin",
+        {
+          "androidApiKey": "YOUR-ANDROID-API-KEY",
+          "iosApiKey": "YOUR-IOS-API-KEY",
+          "baseUrl": "YOUR-SDK-ENDPOINT",
+          "sessionTimeout": 60,
+          "enableGeofence": false,
+          "enableBrazeIosPush": false,
+          "enableFirebaseCloudMessaging": false,
+          "firebaseCloudMessagingSenderId": "YOUR-FCM-SENDER-ID",
+          "enableSdkAuthentication": false,
+          "logLevel": 0,
+          "minimumTriggerIntervalInSeconds": 0,
+          "enableAutomaticLocationCollection": false,
+          "enableAutomaticGeofenceRequests": false,
+          "dismissModalOnOutsideTap": true
+        }
+      ]
+    ]
   }
 }
