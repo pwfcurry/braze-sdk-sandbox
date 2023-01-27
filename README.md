@@ -10,6 +10,6 @@ https://www.braze.com/docs/developer_guide/platform_integration_guides/react_nat
 
 > The log level for your application. The default log level is 8 and will minimally log info. To enable verbose logging for debugging, use log level 0.
 
-Config option is definitely in build app's Info.plist:
+Config option is definitely in built app's Info.plist:
 - `plutil -convert xml1 brazesdksandbox.app/Info.plist`
 - see committed file actualInfo.plist
